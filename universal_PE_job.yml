@@ -1,0 +1,44 @@
+fastq_forward:
+  class: File
+  path: /home/degan/Documents/cwl-docker_validation/sample_R1.fastq.gz
+fastq_reverse:
+  class: File
+  path: /home/degan/Documents/cwl-docker_validation/sample_R2.fastq.gz
+adapter_clip:
+  class: File
+  path: /home/degan/Documents/elective/adapters/NexteraPE-PE.fa
+
+reference_genome_fasta:
+  class: File
+  path: /home/degan/Documents/genome/ucsc.hg19.fasta
+
+#### Secondary files 
+
+reference_genome_index:
+  class: File
+  path: /home/degan/Documents/genome/ucsc.hg19.fasta.index
+
+reference_genome_fai:
+  class: File
+  path: /home/degan/Documents/genome/ucsc.hg19.fasta.fai
+
+reference_genome_amb:
+  class: File
+  path: /home/degan/Documents/genome/ucsc.hg19.fasta.amb
+
+reference_genome_ann:
+  class: File
+  path: /home/degan/Documents/genome/ucsc.hg19.fasta.ann
+
+reference_genome_bwt:
+  class: File
+  path: /home/degan/Documents/genome/ucsc.hg19.fasta.bwt
+
+reference_genome_pac:
+  class: File
+  path: /home/degan/Documents/genome/ucsc.hg19.fasta.pac
+
+reference_genome_sa:
+  class: File
+  path: /home/degan/Documents/genome/ucsc.hg19.fasta.sa
+
