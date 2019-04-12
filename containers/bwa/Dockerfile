@@ -23,7 +23,6 @@ RUN addgroup -S pipe \
 USER pipeman
 
 
-
 MAINTAINER Daniel Egan daniel.egan1@nhs.net
 
 CMD ["/bin/sh"]
