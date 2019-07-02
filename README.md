@@ -3,8 +3,6 @@
 
 A NGS analysis pipeline to analyse Illumina PE sequencing data. The pipeline is co-ordinated by the CWL specification. The CWL workflow pull images from Dockerhub and runs NGS analysis tools within independent Docker containers. The NGS analysis pipeline and tools included have been summaries in the figure below.
 
-![workflow](/images/workflow.jpg)
-
 <h2> Dependencies </h2>
 
 1. Docker CE edition (version 18.06.1-ce )
@@ -13,7 +11,7 @@ A NGS analysis pipeline to analyse Illumina PE sequencing data. The pipeline is 
 
 <h2> Pre-requisites </h2>
 
-1. Clone this repository- https://github.com/DanEgan93/cwl_docker_ngs_pipeline.git
+1. Clone this repository- https://github.com/DanEgan93/cwl_docker_pipeline_iteration_1.git
 
 <h2> Running CWL-Docker pipeline </h2>
 
